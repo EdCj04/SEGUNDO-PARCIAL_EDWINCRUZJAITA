@@ -1,0 +1,39 @@
+body{
+    margin :0;
+}
+.carrucel-items{
+    display: flex;
+}
+.carrucel-item img{
+    width: 335px;
+    height: 300px;
+}
+.carrusel-container {
+    overflow: hidden;
+  }
+  
+  .carrusel-items {
+    display: flex;
+    animation: carrusel-animation 10s linear infinite; /* Cambia el valor de 10s según sea necesario */
+  }
+  
+  .carrusel-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .carrusel-item img {
+    width: 100px;
+    height: auto;
+  }
+  
+  @keyframes carrusel-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  

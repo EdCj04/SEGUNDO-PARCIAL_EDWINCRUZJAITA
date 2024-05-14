@@ -1,0 +1,120 @@
+
+.shop-body{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+   color: #ffffff;
+   left: 40px;
+}
+.letra{
+    font-size: 25px;
+    color: rgb(45, 44, 43);
+    justify-content: center;
+}
+
+.shop-header{
+    display: flex;
+}
+.img-responsive1{
+    width: 260px;
+    height: auto;
+    border-style: ridge;
+    border-width: 5px;
+    margin: 0px 0px;
+}
+.img-responsive2{
+    width: 260px;
+    height: auto;
+    margin: 0px 25px;
+   
+    border-style: ridge;
+    border-width: 5px;
+}
+.img-responsive3{
+    width: 260px;
+    height: auto;
+    border-style: ridge;
+    border-width: 5px;
+    margin: 0px 30px;
+}
+.img-responsive4{
+    width: 260px;
+    height: auto;
+    border-style: ridge;
+    border-width: 5px;
+    margin: 0px 30px;
+}
+.img-responsive5{
+    width: 260px;
+    height: auto;
+    border-style: ridge;
+    border-width: 5px;
+    margin: 0px 30px;
+}
+.img-responsive6{
+    width: 260px;
+    height: auto;
+    border-style: ridge;
+    border-width: 5px;
+    margin: 0px 30px;
+}
+.img-responsive7{
+    width: 260px;
+    height: auto;
+    border-style: ridge;
+    border-width: 5px;
+    margin: 0px 4px;
+}
+
+.shop{
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.product{
+    display: flex;
+    padding: 0;
+    width: 400px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.product-img{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.text-justify{
+    margin-top: 50px;
+    text-align: left;
+    color: rgb(22, 21, 21);
+    
+}
+.message-box{
+    
+    position: relative;
+    bottom: -35px;
+    right: 500px;
+}
+.heading{
+    position: relative;
+    bottom: -30px;
+    right: 85px;
+    font-size: 18px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+}
+.calis{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 40px;
+}
+.products-slick{
+    display: flex;
+    width: 370px;
+
+}
